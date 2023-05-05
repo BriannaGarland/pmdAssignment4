@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - feature1
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
